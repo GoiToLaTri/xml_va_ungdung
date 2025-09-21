@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order"
+        xmlns:prod="http://company.com/product">
+
+    <order:order id="O001" customer="Nguyễn Văn A" date="2025-03-02">
+        <prod:item id="P001" quantity="1" price="38390000">
+            <prod:name>Laptop HP Gaming Victus 16-r0127TX</prod:name>
+        </prod:item>
+        <prod:item id="P002" quantity="1" price="25990000">
+            <prod:name>Laptop Gigabyte Gaming G5 KF5-53VN353SH</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="O002" customer="Trần Thị B" date="2025-03-05">
+        <prod:item id="P003" quantity="1" price="27990000">
+            <prod:name>Laptop MSI Gaming Katana 15 B13VEK-2415VN</prod:name>
+        </prod:item>
+        <prod:item id="P004" quantity="1" price="22090000">
+            <prod:name>Laptop Lenovo Gaming LOQ E 15IAX9E</prod:name>
+        </prod:item>
+        <prod:item id="P005" quantity="1" price="35990000">
+            <prod:name>Laptop Dell Gaming G15 5530</prod:name>
+        </prod:item>
+    </order:order>
+
+</orders>

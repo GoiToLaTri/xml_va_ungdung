@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<classroom>
+    <student id="SV001">
+        <name>Nguyễn Văn A</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>7.0</score>
+            </subject>
+            <subject>
+                <subject_name>Tiếng Anh</subject_name>
+                <score>9.0</score>
+            </subject>
+        </subjects>
+    </student>
+    
+    <student id="SV002">
+        <name>Trần Thị B</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>6.5</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>8.0</score>
+            </subject>
+            <subject>
+                <subject_name>Tiếng Anh</subject_name>
+                <score>7.5</score>
+            </subject>
+        </subjects>
+    </student>
+
+    <student id="SV003">
+        <name>Lê Văn C</name>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Tiếng Anh</subject_name>
+                <score>9.2</score>
+            </subject>
+        </subjects>
+    </student>
+</classroom>
