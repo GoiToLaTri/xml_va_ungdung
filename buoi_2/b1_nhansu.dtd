@@ -1,0 +1,19 @@
+<!ELEMENT congty (dep:phongban+)>
+
+<!ATTLIST congty
+    xmlns:hr CDATA #REQUIRED 
+	xmlns:dep CDATA #REQUIRED
+>
+
+<!ELEMENT dep:phongban (hr:nhanvien+)>
+<!ATTLIST dep:phongban
+    ten CDATA #REQUIRED
+>
+
+<!ELEMENT hr:nhanvien (hr:name, hr:position)>
+<!ATTLIST hr:nhanvien
+    id ID #REQUIRED
+>
+
+<!ELEMENT hr:name (#PCDATA)>
+<!ELEMENT hr:position (#PCDATA)>

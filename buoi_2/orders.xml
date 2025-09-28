@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orders SYSTEM "orders.dtd">
+<orders>
+    <order id="O1001">
+        <product id="P101">
+            <name>Máy tính xách tay HP</name>
+            <quantity>1</quantity>
+        </product>
+        <product id="P102">
+            <name>Chuột không dây Logitech</name>
+            <quantity>2</quantity>
+        </product>
+    </order>
+
+    <order id="O1002">
+        <product id="P103">
+            <name>Bàn phím cơ Razer</name>
+            <quantity>1</quantity>
+        </product>
+        <product id="P104">
+            <name>Màn hình LG 27 inch</name>
+            <quantity>2</quantity>
+        </product>
+        <product id="P105">
+            <name>Ổ cứng SSD Samsung</name>
+            <quantity>3</quantity>
+        </product>
+    </order>
+</orders>
