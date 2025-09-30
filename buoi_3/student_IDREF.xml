@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="student_IDREF.xsd"   >
+  <student id="SV01">
+    <name>John Doe</name>
+    <date>2003-01-15</date>
+  </student>
+  <student id="SV02">
+    <name>Jane Smith</name>
+    <date>2001-05-22</date>
+  </student>
+    <student id="SV03">
+        <name>Emily Johnson</name>
+        <date>2002-11-30</date>
+    </student>
+    
+  <enrollment student_id="SV01" course="Toan101"/>
+  <enrollment student_id="SV03" course="Vatly203"/>
+  <enrollment student_id="SV02" course="Vatly203"/>
+</school>

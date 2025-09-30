@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<school xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="student_ID.xsd">
+  <student id="SV01">
+    <name>John Doe</name>
+    <date_of_birth>2003-01-15</date_of_birth>
+  </student>
+  <student id="SV02">
+    <name>Jane Smith</name>
+    <date_of_birth>2001-05-22</date_of_birth>
+  </student>
+</school>

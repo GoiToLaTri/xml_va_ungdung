@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE students SYSTEM "students.dtd">
-<students>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="../buoi_3/b2_student.xsd">
   <student id="SV001">
     <name>Nguyễn Văn A</name>
     <dob>2001-05-10</dob>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<school>
+  <student>
+    <id>SV01</id>
+    <name>John Doe</name>
+    <date>2003-01-15</date>
+  </student>
+  <student>
+    <id>SV02</id>
+    <name>Jane Smith</name>
+    <date>2001-05-22</date>
+  </student>
+  <student>
+    <id>SV03</id>
+    <name>Emily Johnson</name>
+    <date>2002-11-30</date>
+  </student>
+</school>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE orders SYSTEM "orders.dtd">
-<orders>
+<orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="../buoi_3/b2_orders_unique.xsd">
     <order id="O1001">
         <product id="P101">
             <name>Máy tính xách tay HP</name>
