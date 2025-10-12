@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<dssv xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:noNamespaceSchemaLocation="../buoi_3/b4_student_manage.xsd">
+     <ds_sinhvien>
+        <sinhvien>
+            <mssv>SV001</mssv>
+            <hoten>Nguyen Van A</hoten>
+            <email>nva@gmail.com</email>
+            <diachi>Can Tho</diachi>
+            <sdt>+84999966666</sdt>
+            <lop>CTK42</lop>
+        </sinhvien>
+
+        <sinhvien>
+            <mssv>SV002</mssv>
+            <hoten>Tran Thi B</hoten>
+            <email>ttb@gmail.com</email>
+            <diachi>Can Tho</diachi>
+            <sdt>+84999966666</sdt>
+            <lop>CTK42</lop>
+        </sinhvien>
+     </ds_sinhvien>
+
+     <ds_lop>
+        <lop>
+            <ma>L01</ma>
+            <ten>CTK42</ten>
+            <khoa>KHOA01</khoa>
+        </lop>
+
+        <lop>
+            <ma>L02</ma>
+            <ten>CTK43</ten>
+            <khoa>KHOA02</khoa>
+        </lop>
+     </ds_lop>
+
+     <ds_khoa>
+        <khoa>
+            <ma>KHOA01</ma>
+            <ten>KTPM</ten>
+        </khoa>
+
+        <khoa>
+            <ma>KHOA02</ma>
+            <ten>KTMT</ten>
+        </khoa>
+
+        <khoa>
+            <ma>KHOA03</ma>
+            <ten>KHMT</ten>
+        </khoa>
+
+        <khoa>
+            <ma>KHOA04</ma>
+            <ten>KTW</ten>
+        </khoa>
+    </ds_khoa>
+</dssv>

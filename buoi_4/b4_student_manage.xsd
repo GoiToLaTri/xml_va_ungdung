@@ -1,0 +1,82 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="dssv">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ds_sinhvien">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="sinhvien" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="mssv" type="xs:string"/>
+                                        <xs:element name="hoten" type="xs:string"/>
+                                        <xs:element name="email" type="xs:string"/>
+                                        <xs:element name="diachi" type="xs:string"/>
+                                        <xs:element name="sdt" type="xs:string"/>
+                                        <xs:element name="lop" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                    <xs:key name="studentKey">
+                        <xs:selector xpath="sinhvien"/>
+                        <xs:field xpath="mssv"/>
+                    </xs:key>
+
+                    <xs:keyref name="studentClassRef" refer="classKey">
+                        <xs:selector xpath="sinhvien"/>
+                        <xs:field xpath="lop"/>
+                    </xs:keyref>
+                </xs:element>
+
+                <xs:element name="ds_lop">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="lop" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ma" type="xs:string"/>
+                                        <xs:element name="ten" type="xs:string"/>
+                                        <xs:element name="khoa" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+
+                   <xs:key name="classKey">
+                        <xs:selector xpath="lop"/>
+                        <xs:field xpath="ma"/>
+                    </xs:key>
+
+                    <xs:keyref name="classDepartmentRef" refer="departmentKey">
+                        <xs:selector xpath="lop"/>
+                        <xs:field xpath="khoa"/>
+                    </xs:keyref>
+                </xs:element>
+
+                <xs:element name="ds_khoa">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="khoa" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ma" type="xs:string"/>
+                                        <xs:element name="ten" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                        <xs:key name="departmentKey">
+                            <xs:selector xpath="khoa"/>
+                            <xs:field xpath="ma"/>
+                        </xs:key>
+                </xs:element>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
